@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>解构赋值</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    //es6中提供的一种快速的从结构中取出值来,赋值给变量
+
+    //let arr = [1, 2, 3, 4];
+
+    //
+    // let a = arr[0];
+    // let b = arr[1];
+    // let c = arr[2];
+    // let d = arr[3];
+
+
+    //把值从数组中取出来,然后保存在变量中
+    // let [a, b, c, d] = [1, 2, 3, 4];
+    // console.log(a, b, c, d);
+
+    // let arr = ['zhangsan', 18, ['175cm', '65kg']];
+
+    // let [a, b] = arr[2];
+    // console.log(a, b);
+
+    //...c 接收剩余的其他值,是一个数组,...只能写在最后一个变量的前面
+    // let arr = [5, 9, 10, 8, 3, 2];
+
+    // let [a, b, ...c] = arr;
+    // console.log(a, b, c);
+
+    //交换a,b的值
+    let a = 1, b = 2;
+
+    [a, b] = [b, a];
+
+    console.info(a, b);
+
+</script>
+
+</html>
